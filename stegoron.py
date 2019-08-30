@@ -49,8 +49,7 @@ def modify_pixels(new_pic, data):
 
 
 
-            #if temp_pixels[j] == 0:
-             #   temp_pixels[j] = 1
+            
 
         if i == len_data - 1:
             if temp_pixels[-1] % 2 == 0:
@@ -62,7 +61,7 @@ def modify_pixels(new_pic, data):
 
         pixels = pixels + temp_pixels
 
-    # print("after for loop")
+   
 
     pixels = tuple(pixels)
     
@@ -76,8 +75,7 @@ def put_pixel(new_pic, data):
     s = new_pic.size[0]
     (x, y) = (0, 0)
     for pixels in modify_pixels(new_pic.getdata(), data):
-        # print(pixels)
-        # print('\n')
+        
         new_pic.putpixel((x, y), pixels)
 
         if x == s - 1:
