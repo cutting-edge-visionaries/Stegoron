@@ -12,4 +12,4 @@ Python3 should be installed in your system.if not then install by apt-get instal
 
 How to run this tool :
 
-Just Clone this repositry : git clone : https://github.com/Amangondaliya555/Stegoron.git copy this folder to your any location in your computer. everything is fine and good to go. Just run the file stegoron by command: python3 stegoron.py And have fun with the fresh new tool build in python for people interested in cyber security.
+Just Clone this repositry : git clone : https://github.com/Amangondaliya555/Stegoron.git copy this folder to your any location in your computer.Just run the file stegoron by command: python3 stegoron.py And have fun with the fresh new tool build in python for people interested in cyber security.
